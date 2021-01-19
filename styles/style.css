@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    outline: none;
+}
+
+/* style for the footer */
+
+footer{
+    background-color:  rgb(237, 105, 101);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width : 100%;
+    padding: 15px 0 10px 15px;
+    color: white;
+}
+
+/* stylin the nav bar */
+
+#usto-logo{
+    float: left;
+}
+
+header{
+    margin : 20px 0 0 10%;    
+}
+
+.nav-bar{
+    list-style-type: none;
+    padding: 30px;
+}
+
+li{
+    display: inline-block;
+    margin-left: 10%;
+}
+
+#show-result-input{
+    float: right;
+}
+
+.home-result-form{
+    margin-right: 22px;
+}
+
+.home-result-form *{
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(11, 7, 84);
+    font-weight: 600;   
+}
+a:visited{
+    color: rgb(11, 7, 84);
+}
+.btn {
+	background-color: rgb(146, 181, 249);
+    border-radius:28px;
+    border: 1px solid rgb(146, 181, 249) ;
+	cursor:pointer;
+	color: white;
+	padding:16px 31px;
+}
+#result-check{
+    border: 1px solid rgb(146, 181, 249) ;
+    border-radius:28px;
+    padding:16px 31px;
+    color:  rgb(11, 7, 84);
+}
+
+#result-check::placeholder{
+    color:  rgb(146, 181, 249);
+}
+
+@media only screen and (max-width: 992px) {
+    
+    .home-result-form{
+        margin-top: 30px;
+    }
+
+
+  }
+  @media only screen and (max-width: 592px) {
+    
+    .home-result-form{
+        margin-top: 30px;
+    }
+    .btn{
+        margin-top: 20px;
+    }
+  }
+
+ #home-input-msg{
+     color: rgb(237, 105, 101);
+ }
+
+
+  /* style of home page body  */ 
+
+#home-img {
+    position: absolute;
+    right: 0;
+    top: 17%;
+    z-index: -2;
+}
+
+.home-body-text p{
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+.home-main-container{
+    margin-left: 10%;
+    margin-top: 30px;
+    color: rgb(11, 7, 84);
+    
+}
+.home-content{
+    animation: 1s ease-out 0s 1 slideIn;
+}
+
+.home-body-text h1{
+    font-size: 40px;
+    
+}
+h1:nth-child(2)
+{
+    font-weight: 800;
+}
+
+.start-btn{
+    background-color:  rgb(237, 105, 101);
+    border-color: rgb(237, 105, 101);
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 754px) {
+    
+    #home-img {
+        height: 640px;
+        width: 350px;
+    }
+    
+  }
+  @media only screen and (max-width: 360px) {
+    
+    #home-img {
+        height: 320px;
+        width: 150px;
+        right: -30px;
+    } 
+  }
+
+
+
+  /* style of register page */
+
+    /* section form */
+  .add-form{
+      border: 1px solid rgb(146, 181, 249);
+      width: 60%;
+      margin: 30px 20% 0;
+      padding: 35px;
+      border-radius: 15px;
+  }
+  
+.section-container {
+     margin: 15px 20px;
+     font-size: 18px;
+     border-radius: 20px;
+     border-color: rgb(146, 181, 249);
+     color: rgb(11, 7, 84); 
+     
+}
+
+.section-form{
+    color: rgb(11, 7, 84);
+    height: 1px;
+}
+label:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+
+    /* student form */
+.student-form  input{
+    width: 70%;
+    padding: 10px 15px;
+    margin: 15px 10px;
+    border-color: rgb(146, 181, 249);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(11, 7, 84);
+    font-weight: 600;
+}
+.student-form  input::placeholder{
+
+    color: rgb(146, 181, 249);
+
+}
+
+.candidat-form {
+    margin-top: 10px;
+}
+.candidat-form label{
+   float: left;
+    
+}
+
+.candidat-form span{
+    
+        display: block; 
+        overflow: hidden; 
+        position: relative;
+        right: 18%;
+        bottom: 5px;
+    
+}
+
+.candidat-form input[type=checkbox]
+{
+    transform: scale(1.5);  
+  cursor: pointer;
+}
+
+.register-btn{
+    position: relative;
+    left: 80%;
+}
+
+.add-form-container{
+    padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 997px) {
+    
+    .add-form-container{
+       margin-top: 100px;
+    }
+
+}
+
+/* vote page style */
+
+.candidat1-container,.candidat2-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 50px 10% 0;
+   
+}
+
+.candidat1-container div,.candidat2-container div{
+    display: inline-block;
+    border: 1px solid rgb(146, 181, 249);
+    padding: 20px;
+}
+
+.vote-section1 h1,.vote-section2 h1{
+    margin: 30px 10% 0;
+    font-size: 25px;
+    color: rgb(11, 7, 84);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.vote-section1 p,.vote-section2 p{
+   
+    font-size: 15px;
+    color: rgb(11, 7, 84);
+    font-weight: 600;
+}
+
+.vote-btn{
+    position: relative;
+    left: 70%; 
+}
+
+.vote-form-section1,.vote-form-section2{
+    margin-bottom: 20px;
+}
+
+
+@keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
