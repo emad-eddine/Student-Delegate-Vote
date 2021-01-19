@@ -4,6 +4,8 @@
   *  Prenom : mohammed imed eddine.              *
   *                                              *
   ************************************************
+  
+  YOU CAN SEE THE FINAL PROJECT OUTPUT IN finalOutput directory
 
 configuration du BD:
 ===================================
